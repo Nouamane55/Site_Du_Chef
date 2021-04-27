@@ -16053,6 +16053,7 @@ nav {
   align-items: center;
   background-color: #1b1a1a;
   height: 200px;
+  width: 100%;
 }
 
 nav > ul {
@@ -16082,6 +16083,26 @@ i {
   font-size: 400%;
   color: white;
   padding: 10px;
+  text-align: center;
+}
+
+div > h5 {
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+  font-family: "Courgette", cursive;
+}
+
+.carousel-inner {
+  background-position: center;
+  justify-content: center;
+  width: 100%;
+  background-position: center;
+}
+
+.carousel-caption {
+  font-family: "Courgette", cursive;
+  text-align: center;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -1,12 +1,16 @@
 //Navbar//
 nav{
+    // position: fixed ;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(27, 26, 26);
     height: 200px;
-    
+    width: 100%;
 }
+
+// ul navbar //
+
 nav>ul{
     align-items: center;
     display: flex;
@@ -33,4 +37,12 @@ i{
     font-size:400%;
     color: white;
     padding: 10px;
+    text-align: center;
+}
+// text icon //
+div>h5{
+    text-align: center;
+    color:white;
+    font-size: xx-large;
+    font-family: 'Courgette', cursive;
 }
